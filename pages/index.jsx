@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   // Contract Address & ABI
-  const contractAddress = "0xDBa03676a2fBb6711CB652beF5B7416A53c1421D";
+  const contractAddress = "0xc303D7d294F7207d34aeA34bE772dcBd0A0c2eb8";
   const contractABI = abi.abi;
 
   // Component state
@@ -166,14 +166,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Buy Albert a Coffee!</title>
+        <title>Buy Jackie a Coffee!</title>
         <meta name="description" content="Tipping site" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Buy Albert a Coffee!
+          Buy Jackie a Coffee!
         </h1>
         
         {currentAccount ? (
@@ -195,7 +195,7 @@ export default function Home() {
               <br/>
               <div class="formgroup">
                 <label>
-                  Send Albert a message
+                  Send Jackie a message
                 </label>
                 <br/>
 
@@ -213,7 +213,7 @@ export default function Home() {
                   type="button"
                   onClick={buyCoffee}
                 >
-                  Send 1 Coffee for 0.001ETH
+                  Send 1 Coffee for 0.001MATIC
                 </button>
               </div>
             </form>
