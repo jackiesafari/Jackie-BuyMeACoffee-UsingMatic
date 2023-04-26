@@ -1,10 +1,25 @@
-You can see a demo of this repo on Replit : https://replit.com/@thatguyintech/BuyMeACoffee-Solidity-DeFi-Tipping-app
+# :coffee: Buy Me A Coffee (Using MATIC) 
+Buy Me a Coffee dApp is a gateway to building on Ethereum and providing a real use case in the blockchain. This is the front-end portion of the dapp but there is another repo to check out the smart contract side. 
 
-## Getting Started
+In this dApp you will be able to send money for coffee to a creator with a memo attached. 
+
+## :turtle: Getting Started
+
+### Time to clone a repo
+- Go to the top of the repository and click on the button "Code"
+- A dropdown will appear and copy the URL shown
+- Open your terminal
+- In your terminal go to your desired location or type `cd desktop` and press enter
+- Then type `git clone` and paste the URL 
+- Press Enter to create your local clone
+
+## Next Steps
+
+In your terminal type
 
 `npm install` to install dependencies
 
-First, run the development server:
+Next, run the development server:
 
 ```bash
 npm run dev
@@ -18,7 +33,7 @@ Everything you need is inside `pages/index.js`.
 
 To customize the website to load info from your own contract, change the following:
 
-- Update `contractAddress` in `pages/index.js` to your own BuyMeACoffee contract on the Goerli testnet.
+- Update `contractAddress` in `pages/index.js` to your own BuyMeACoffee contract on the Mumbai testnet.
 - Update `utils/BuyMeACoffee.json` to match the json artifact for your contract after compilation.
 - Update the name and footer text in `pages/index.js` to your own name and info.
 
